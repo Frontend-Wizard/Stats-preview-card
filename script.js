@@ -2,9 +2,9 @@ const Companies = document.getElementById("COMPANIES");
 const Templates = document.getElementById("TEMPLATES");
 const Queries = document.getElementById("QUERIES");
 
-count(10, 1000, Companies);
-count(314, 1000, Templates);
-count(12, 1000, Queries);
+count(10, 2000, Companies);
+count(314, 2000, Templates);
+count(12, 2000, Queries);
 
 /*  
     number - number to which function count
