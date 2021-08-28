@@ -10,8 +10,8 @@ This is a solution to the Stats preview card challenge on Frontend Mentor. Front
 
 ### Links
 
-- [Solution URL] (https://github.com/Frontend-Wizard/Stats-preview-card)
-- [Live Site URL] (https://wizard4design.github.io/Stats-preview-card)
+- [Solution URL](https://github.com/Frontend-Wizard/Stats-preview-card)
+- [Live Site URL](https://Frontend-Wizard.github.io/Stats-preview-card)
 
 ### Built with
 
