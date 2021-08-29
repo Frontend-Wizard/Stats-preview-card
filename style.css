@@ -138,7 +138,7 @@ footer {
 	text-decoration-style: wavy;
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1101px) {
 	.info h1 {
 		height: 94px;
 		margin-bottom: 19px;
@@ -149,13 +149,17 @@ footer {
 		margin-bottom: 72px;
 	}
 
-	.data .column p{
+	.data .column p {
 		margin-top: 6px;
 		height: 16px;
 	}
 
 	.data {
 		width: 352px;
+	}
+
+	.column{
+		align-items: flex-start;
 	}
 }
 
@@ -197,7 +201,8 @@ footer {
 		margin-bottom: 30px;
 	}
 
-	h1 {
+	.info h1{
+		height: min-content;
 		font-size: 1rem;
 		width: max-content;
 	}
@@ -207,9 +212,13 @@ footer {
 		text-align: center;
 		font-size: 0.6rem;
 	}
+	
+	.info p:not(.column p){
+		height: max-content;
+	}
 
 	.data {
-		width: calc(100% - 2 * 71px);
+		width: calc(80% - 2 * 71px);
 	}
 
 	.attribution {
