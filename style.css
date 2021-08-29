@@ -39,6 +39,7 @@ main {
 .info {
 	width: max-content;
 	margin: 71px;
+	margin-bottom: 64px;
 	margin-right: 0;
 	display: flex;
 	flex-direction: column;
@@ -139,11 +140,17 @@ footer {
 
 @media screen and (min-width: 801px) {
 	.info h1 {
+		height: 94px;
 		margin-bottom: 19px;
 	}
 
-	.info p {
-		margin-bottom: 73px;
+	.info p:not(.column p) {
+		height: 75px;
+		margin-bottom: 72px;
+	}
+
+	.data .column p{
+		height: 16px;
 	}
 
 	.data {
